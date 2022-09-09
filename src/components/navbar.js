@@ -21,18 +21,22 @@ function navBar() {
     window.addEventListener('scroll', onScroll);
 
     return () => window.removeEventListener('scroll', onScroll);
-  }, [])
+  }, []);
+
+  const onUpdateActiveLink = (selectedLink) => {
+    setActiveLink(selectedLink);
+  }
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg" className={scrolled ? 'scrolled':''}>
       <Container>
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Skills</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
+            <Nav.Link href="#home" className = {activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home')}>Home</Nav.Link>
+            <Nav.Link href="#link" className = {activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+            <Nav.Link href="#link" className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             <span className='navbar-text'>
               <div className='social-icon'>
                 <a href= '#'><img alt=''></img></a>
