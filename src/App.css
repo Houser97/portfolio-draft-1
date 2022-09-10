@@ -1,3 +1,42 @@
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url('./assets/font/CentraNo2-Book.ttf');
+  font-weight: 400;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  /* Los 3 primeras reglas son importantes para evitar que BOOTSTRAP imponga sus estilos. */
+  font-family: 'Centra', sans-serif; 
+  color: #fff;
+  background-color: #121212;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
 .App {
   text-align: center;
 }
