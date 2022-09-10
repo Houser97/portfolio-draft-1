@@ -6,8 +6,9 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import '../styles/navbar.css';
 
-const navBar = () => {
+const NavbarReact = () => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -56,4 +57,4 @@ const navBar = () => {
   );
 }
 
-export default navBar;
+export default NavbarReact;
