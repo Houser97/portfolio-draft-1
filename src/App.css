@@ -29,9 +29,9 @@ html {
 
 body {
   /* Los 3 primeras reglas son importantes para evitar que BOOTSTRAP imponga sus estilos. */
-  font-family: 'Centra', sans-serif; 
-  color: #fff;
-  background-color: #121212;
+  font-family: 'Centra', sans-serif !important; 
+  color: #fff !important;
+  background-color: #121212 !important;
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
@@ -71,13 +71,4 @@ h1, h2, h3, h4, h5, h6 {
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
