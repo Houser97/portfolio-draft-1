@@ -38,5 +38,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-bootstrap-icons": "^1.8.4",
+    "react-on-screen": "^2.1.1"
   }
 }
