@@ -49,6 +49,7 @@ const NavbarReact = () => {
                 <a href= '#'><img src={navIcon2} alt=''></img></a>
                 <a href= '#'><img src={navIcon3} alt=''></img></a>
               </div>
+              <button className='vvd'><span>Let's Connect</span></button>
             </span>
           </Nav>
         </Navbar.Collapse>
