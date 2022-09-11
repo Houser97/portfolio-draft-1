@@ -4,7 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import '../styles/contact.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Contact = () => {
+const Contact = () => {
   const formInitialDetails = {
     firstName: '',
     lastName: '',
@@ -93,3 +93,5 @@ export const Contact = () => {
     </section>
   )
 }
+
+export default Contact;
