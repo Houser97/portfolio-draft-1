@@ -30,7 +30,7 @@ html {
 body {
   /* Los 3 primeras reglas son importantes para evitar que BOOTSTRAP imponga sus estilos. */
   font-family: 'Centra', sans-serif !important; 
-  color: #fff !important;
+  color: rgb(0, 0, 0) !important;
   background-color: #121212 !important;
   font-weight: 400;
   overflow-x: hidden;
@@ -48,6 +48,10 @@ p, a, li, button, ul {
   padding: 0;
   line-height: normal;
   text-align: none;
+}
+
+p {
+  color: black !important;
 }
 
 a:hover {
