@@ -87,11 +87,21 @@
     border-radius: 0 55px 55px 0;
 }
 
-.grid-projects{
+#grid-projects{
     display: grid !important;
     width: 100% !important;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 350px)) !important;
-    grid-template-rows: repeat((auto-fill, minmax(150px, 150px))) !important;
-    align-items: center !important; justify-content: center !important;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 550px)) !important;
+    grid-template-rows: repeat(auto-fill, minmax(350px, 350px)) !important;
+    grid-auto-rows: 350px;
+    align-items: center !important; 
+    justify-content: center !important;
     row-gap: 30px; column-gap: 30px;
+}
+
+#container-project {
+    margin: 0px;
+    width: 100% !important;
+    display: flex !important;
+    flex-flow: column !important;
+    align-items: center !important;
 }

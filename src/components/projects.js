@@ -8,6 +8,8 @@ import InteriorPlasticoyVidrio from "../assets/img/projects/InteriorPlasticoyVid
 import IntRen from "../assets/img/projects/IntRen.jpg";
 import Livingroom1 from "../assets/img/projects/Livingroom1.jpg";
 import Romantico2 from "../assets/img/projects/Romantico2-2.jpg";
+import bedroom from "../assets/img/projects/bedroom.jpg";
+import babyBedroom from "../assets/img/projects/babyBedroom.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import '../styles/projects.css';
@@ -55,11 +57,21 @@ const Projects = () => {
       description: "Design & Development",
       imgUrl: Romantico2,
     },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: bedroom,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: babyBedroom,
+    },
   ];
 
   return (
     <section className="project" id="projects">
-      <Container>
+      <div id = 'container-project'>
         <Row>
           <Col size={12}>
             <TrackVisibility>
@@ -78,7 +90,7 @@ const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <div className="grid-projects">
+                      <div id="grid-projects">
                         {
                           projects.map((project, index) => {
                             return (
@@ -100,7 +112,7 @@ const Projects = () => {
             </TrackVisibility>
           </Col>
         </Row>
-      </Container>
+      </div>
       <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
