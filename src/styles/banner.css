@@ -3,7 +3,7 @@
     padding: 200px 0 100px 0;
     background-image: url('../assets/img/PlantAr.jpg');
     background-position: center;
-    background-size:  100% 100%;
+    background-size:  cover;
     background-repeat: no-repeat;
 
 }
