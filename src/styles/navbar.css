@@ -14,7 +14,11 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-    width: 9%;
+    width: 200px;
+    display: flex; flex-flow: column;
+    align-items: center;
+    padding: 0px;
+    font-family: ouyo;
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -187,6 +191,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
-.logo-architect{
-    width: 100px;
+.container-logo{
+    display: flex; flex-flow: column;
+    align-items: center;
+}
+
+.logo-architecture{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 11.5px;
+    padding: 0px 4px !important;
 }

@@ -38,7 +38,8 @@ const NavbarReact = () => {
       <Navbar expand="md" className="scrolled">
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" className="logo-architect" />
+            <div className="logo-architecture">IT'S ALL ABOUT </div>
+            <div className="logo-architecture">ARCHITECTURE</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
