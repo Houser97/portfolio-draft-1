@@ -1,20 +1,21 @@
 .banner {
     margin-top: 0;
     padding: 200px 0 100px 0;
-    background-image: url('../assets/img/Plant.jpg');
+    background-image: url('../assets/img/PlantAr.jpg');
     background-position: center;
-    background-size:  cover;
+    background-size:  100% 100%;
     background-repeat: no-repeat;
-    display: flex;
-    min-height: 750px;
+
 }
 
 .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: #a9a9a9;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    border-radius: 5px;
+    /*background: #a9a9a9;
+    border: 1px solid rgba(255, 255, 255, 0.5);*/
     font-size: 20px;
     margin-bottom: 16px;
     display: inline-block;
@@ -68,21 +69,6 @@
     height: 550px;
 }
 
-.bgImg {
-    position: absolute !important;
-    z-index: 0 !important;
-      /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-	
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-	
-  /* Set up positioning */
-  top: 0;
-  left: 0;
-}
 
 @keyframes updown {
     0% {
@@ -97,4 +83,8 @@
 }
 .txt-rotate > .wrap {
 border-right: 0.08em solid #666;
+}
+
+.txt-rotate{
+    font-size: 56px !important;
 }

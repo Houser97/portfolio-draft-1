@@ -45,20 +45,23 @@ const Banner = () => {
 
     return (
     <section className="banner" id="home">
-        <Container>
+        <Container className="container-banner">
         <Row className="aligh-items-center">
-            <Col xs={12} md={6} xl={7}>
+            <Col //</Row>xs={12} md={6} xl={7} sm = {8} 
+            sm = {8}>
             <TrackVisibility>
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Hi! I'm Andrea Vidal</span>
+                {/*Acá va la parte que se escribe dinámicamente */}
                 <h1><span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                 </div>}
             </TrackVisibility>
             </Col>
-            <Col xs={12} md={6} xl={5}>
+            <Col //</Row>xs={5} md={6} xl={5} sm = {4}
+            sm = {2}>
             <TrackVisibility>
                 {({ isVisible }) =>
                 <div className={`${isVisible ? "animate__animated animate__zoomIn" : ""} logoV`}>
