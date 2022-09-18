@@ -43,12 +43,12 @@ const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: IntRen,
+      imgUrl: Livingroom1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: Livingroom1,
+      imgUrl: IntRen,
     },
     {
       title: "Business Startup",
@@ -78,7 +78,7 @@ const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row>
+                      <div className="grid-projects">
                         {
                           projects.map((project, index) => {
                             return (
@@ -89,7 +89,7 @@ const Projects = () => {
                             )
                           })
                         }
-                      </Row>
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
