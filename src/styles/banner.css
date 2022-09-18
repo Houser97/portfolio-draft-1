@@ -5,6 +5,8 @@
     background-position: center;
     background-size:  cover;
     background-repeat: no-repeat;
+    display: flex;
+    min-height: 800px;
 }
 
 .banner .tagline {
