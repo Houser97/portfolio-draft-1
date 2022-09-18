@@ -1,8 +1,13 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "./projectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import Ext1 from "../assets/img/projects/Ext1.jpg";
+import Ext2 from "../assets/img/projects/Ext2.jpg";
+import Int2 from "../assets/img/projects/Int2.jpg";
+import INTERIORCERAMICA from "../assets/img/projects/INTERIORCERAMICAYMETAL1-4-2.jpg";
+import InteriorPlasticoyVidrio from "../assets/img/projects/InteriorPlasticoyVidrio.jpg";
+import IntRen from "../assets/img/projects/IntRen.jpg";
+import Livingroom1 from "../assets/img/projects/Livingroom1.jpg";
+import Romantico2 from "../assets/img/projects/Romantico2-2.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import '../styles/projects.css';
@@ -13,32 +18,42 @@ const Projects = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: Ext1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: Ext2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: Int2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: INTERIORCERAMICA,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: InteriorPlasticoyVidrio,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: IntRen,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: Livingroom1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: Romantico2,
     },
   ];
 
