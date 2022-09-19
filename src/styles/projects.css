@@ -90,12 +90,12 @@
 #grid-projects{
     display: grid !important;
     width: 100% !important;
-    grid-template-columns: repeat(auto-fill, minmax(550px, 550px)) !important;
-    grid-template-rows: repeat(auto-fill, minmax(350px, 350px)) !important;
-    grid-auto-rows: 350px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 500px)) !important;
+    grid-template-rows: repeat(auto-fill, minmax(300px, 300px)) !important;
+    grid-auto-rows: 300px;
     align-items: center !important; 
     justify-content: center !important;
-    row-gap: 30px; column-gap: 30px;
+    row-gap: 60px; column-gap: 80px;
 }
 
 #container-project {
