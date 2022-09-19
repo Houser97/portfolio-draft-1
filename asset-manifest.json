@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-draft-1/static/css/main.c052d02f.css",
-    "main.js": "/portfolio-draft-1/static/js/main.e7ef3679.js",
+    "main.css": "/portfolio-draft-1/static/css/main.a8ba4394.css",
+    "main.js": "/portfolio-draft-1/static/js/main.467ee162.js",
     "static/js/787.67ce4754.chunk.js": "/portfolio-draft-1/static/js/787.67ce4754.chunk.js",
     "static/media/Ext2.jpg": "/portfolio-draft-1/static/media/Ext2.e44166b3af5427e91ac7.jpg",
     "static/media/Romantico2-2.jpg": "/portfolio-draft-1/static/media/Romantico2-2.5ccb5d5e4085513a232f.jpg",
@@ -9,29 +9,24 @@
     "static/media/InteriorPlasticoyVidrio.jpg": "/portfolio-draft-1/static/media/InteriorPlasticoyVidrio.3c1daec31ede5be51f1a.jpg",
     "static/media/Int2.jpg": "/portfolio-draft-1/static/media/Int2.4978308041c1bc89d907.jpg",
     "static/media/Ext1.jpg": "/portfolio-draft-1/static/media/Ext1.bba88318cbe23a7d2742.jpg",
-    "static/media/Plant.jpg": "/portfolio-draft-1/static/media/Plant.ab060ef12a072de214fc.jpg",
     "static/media/PlantAr.jpg": "/portfolio-draft-1/static/media/PlantAr.26ba6fb1cc03fc4f5b05.jpg",
-    "static/media/color-sharp2.png": "/portfolio-draft-1/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/INTERIORCERAMICAYMETAL1-4-2.jpg": "/portfolio-draft-1/static/media/INTERIORCERAMICAYMETAL1-4-2.f9b3d32f0c7eca8f3de0.jpg",
+    "static/media/bedroom.jpg": "/portfolio-draft-1/static/media/bedroom.6538db813c499921bf91.jpg",
+    "static/media/babyBedroom.jpg": "/portfolio-draft-1/static/media/babyBedroom.058fb40b883e7e4eb9fb.jpg",
     "static/media/IntRen.jpg": "/portfolio-draft-1/static/media/IntRen.70c32e95be8b09c78cc4.jpg",
     "static/media/CentraNo2-Bold.ttf": "/portfolio-draft-1/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio-draft-1/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio-draft-1/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/FUTRFW.TTF": "/portfolio-draft-1/static/media/FUTRFW.c534d26ac971c21c5666.TTF",
-    "static/media/contact-img.svg": "/portfolio-draft-1/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/VDESIGN.png": "/portfolio-draft-1/static/media/VDESIGN.88a683d50bd8dc6d2429.png",
-    "static/media/LOGO.png": "/portfolio-draft-1/static/media/LOGO.870c16fcd591bb28df6e.png",
     "static/media/nav-icon3.svg": "/portfolio-draft-1/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
-    "static/media/logo.svg": "/portfolio-draft-1/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "index.html": "/portfolio-draft-1/index.html",
-    "static/media/nav-icon1.svg": "/portfolio-draft-1/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/nav-icon2.svg": "/portfolio-draft-1/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c052d02f.css.map": "/portfolio-draft-1/static/css/main.c052d02f.css.map",
-    "main.e7ef3679.js.map": "/portfolio-draft-1/static/js/main.e7ef3679.js.map",
+    "main.a8ba4394.css.map": "/portfolio-draft-1/static/css/main.a8ba4394.css.map",
+    "main.467ee162.js.map": "/portfolio-draft-1/static/js/main.467ee162.js.map",
     "787.67ce4754.chunk.js.map": "/portfolio-draft-1/static/js/787.67ce4754.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c052d02f.css",
-    "static/js/main.e7ef3679.js"
+    "static/css/main.a8ba4394.css",
+    "static/js/main.467ee162.js"
   ]
 }
