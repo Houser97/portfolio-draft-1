@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import logoV from "../assets/img/VDESIGN.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import TrackVisibility from 'react-on-screen';
-import imgPlant from '../assets/img/Plant.jpg';
 import '../styles/banner.css';
 
 const Banner = () => {
@@ -20,6 +18,7 @@ const Banner = () => {
         }, delta);
 
         return () => { clearInterval(ticker) };
+        // eslint-disable-next-line
         }, [text])
 
     const tick = () => {

@@ -1,10 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/LOGO.png';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router} from "react-router-dom";
 import '../styles/navbar.css'
 
@@ -52,9 +48,11 @@ const NavbarReact = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
+                {/* 
                 <a className="linkedin" href="#"><img src={navIcon1} alt="" /></a>
                 <a className="facebook" href="#"><img src={navIcon2} alt="" /></a>
-                <a className="instagram" href="#"><img src={navIcon3} alt="" /></a>
+                */}
+                <a className="instagram" href="https://www.instagram.com/vid.aldesign/"><img src={navIcon3} alt="" /></a>
               </div>
               {/*
               <HashLink to='#connect'>
