@@ -4,7 +4,7 @@ import Navbar from './components/navbar';
 const ProjectDetail = () => {
   return (
     <div className='project-detail-template'>
-        <Navbar />
+        <Navbar isAppComponent={false}/>
     </div>
   )
 }
