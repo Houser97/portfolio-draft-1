@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './components/navbar';
 
 const ProjectDetail = () => {
   return (
-    <div>ProjectDetail</div>
+    <div className='project-detail-template'>
+        <Navbar />
+    </div>
   )
 }
 
