@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import { BrowserRouter as Router} from "react-router-dom";
 import '../styles/navbar.css'
 
 const NavbarReact = () => {
