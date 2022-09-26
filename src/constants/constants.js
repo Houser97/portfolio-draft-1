@@ -11,32 +11,32 @@ import babyBedroom from "../assets/img/projects/babyBedroom.jpg";
 
 export const projects = [
     {
-      title: "Business Startup",
+      title: "Ext1",
       description: "Design & Development",
       imgUrl: Ext1,
     },
     {
-      title: "Business Startup",
+      title: "Ext2",
       description: "Design & Development",
       imgUrl: Ext2,
     },
     {
-      title: "Business Startup",
+      title: "Int2",
       description: "Design & Development",
       imgUrl: Int2,
     },
     {
-      title: "Business Startup",
+      title: "Interior Ceramica",
       description: "Design & Development",
       imgUrl: INTERIORCERAMICA,
     },
     {
-      title: "Business Startup",
+      title: "Interior plastico y vidrio",
       description: "Design & Development",
       imgUrl: InteriorPlasticoyVidrio,
     },
     {
-      title: "Business Startup",
+      title: "Living room 1",
       description: "Design & Development",
       imgUrl: Livingroom1,
     },
@@ -56,7 +56,7 @@ export const projects = [
       imgUrl: bedroom,
     },
     {
-      title: "Business Startup",
+      title: "Baby bedroom",
       description: "Design & Development",
       imgUrl: babyBedroom,
     },
