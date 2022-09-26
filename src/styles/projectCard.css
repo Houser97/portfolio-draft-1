@@ -6,6 +6,7 @@
     width: 100% !important;
     height: 100% !important;
     border: white 2px solid;
+    color: black !important;
 }
 
 .proj-imgbx::before {

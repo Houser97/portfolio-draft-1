@@ -13,15 +13,15 @@ const ProjectCard = ({ title, description, imgUrl }) => {
   
 
   return (
-    <Link to = {`project/${formattedTitle}`} className = 'link-router'>
-      <div href='project' className="proj-imgbx">
-        <img src={imgUrl} className = 'img-project' alt="project"/>
-        <div className="proj-txtx">
-          <h4>{title}</h4>
-          <span>{description}</span>
-        </div>
+
+    <Link to = {`project/${formattedTitle}`} className = 'proj-imgbx'>
+      <img src={imgUrl} className = 'img-project' alt="project"/>
+      <div className="proj-txtx">
+        <h4>{title}</h4>
+        <span>{description}</span>
       </div>
     </Link>
+
   )
 }
 
