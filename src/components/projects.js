@@ -12,62 +12,9 @@ import bedroom from "../assets/img/projects/bedroom.jpg";
 import babyBedroom from "../assets/img/projects/babyBedroom.jpg";
 import TrackVisibility from 'react-on-screen';
 import '../styles/projects.css';
+import { projects } from "../constants/constants";
 
 const Projects = () => {
-
-  const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Ext1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Ext2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Int2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: INTERIORCERAMICA,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: InteriorPlasticoyVidrio,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Livingroom1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: IntRen,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Romantico2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: bedroom,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: babyBedroom,
-    },
-  ];
-
   return (
     <section className="project" id="projects">
       <div id = 'container-project'>
