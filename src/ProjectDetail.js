@@ -20,7 +20,7 @@ const ProjectDetail = () => {
   return (
     <div className='project-detail-template'>
       <Navbar isAppComponent={false} />
-        {projectData[0].title}
+        {projectData === '' ? '' : projectData[0].title}
     </div>
   )
 }
