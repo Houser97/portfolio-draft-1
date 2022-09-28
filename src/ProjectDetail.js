@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Navbar from './components/navbar';
 import './styles/ProjectDetail.css'
+import './App.css'
 import { projects } from './constants/constants';
 
 const ProjectDetail = () => {
@@ -20,6 +21,7 @@ const ProjectDetail = () => {
   return (
     <div className='project-detail-template'>
       <Navbar isAppComponent={false} />
+      <h1 className='title-project-page'>{projectData === '' ? '' : projectData[0].title}</h1>
       <div className='image-project-detail'>
         {projectData === '' ? '' : 
           <img src={projectData[0].imgUrl} className = 'image-project-section'></img>

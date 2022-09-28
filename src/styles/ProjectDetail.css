@@ -1,6 +1,19 @@
 .project-detail-template{
-    background-color: rgb(24, 24, 24) !important;
-    width: 100% !important; height: 100vh !important;
+    background-color: rgb(0, 0, 0) !important;
+    width: 100% !important;
+}
+
+.title-project-page{
+    margin-top: 0;
+    padding: 80px 50px 0px 50px;
+    background-image: url('../assets/img/bg-chair.jpg');
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; justify-content: center;
+    height: 100vh;
+    font-family: 'Centra', sans-serif !important; 
 }
 
 .image-project-detail{
