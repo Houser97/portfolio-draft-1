@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import './styles/ProjectDetail.css'
 import './App.css'
 import { projects } from './constants/constants';
@@ -27,6 +28,7 @@ const ProjectDetail = () => {
           <img src={projectData[0].imgUrl} className = 'image-project-section'></img>
         }
       </div>
+      <Footer />
     </div>
   )
 }
