@@ -29,7 +29,7 @@ const NavbarReact = ({isAppComponent}) => {
   }
 
   return (
-    <Navbar expand="md" className="scrolled">
+    <Navbar expand="md" className={`${isAppComponent ? "scrolled" : "scrolled"}`}>
       <Container>
         <Navbar.Brand href="/">
           <div className="logo-architecture">IT'S ALL ABOUT </div>

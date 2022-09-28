@@ -1,16 +1,18 @@
 .project-detail-template{
-    background-color: white !important;
+    background-color: rgb(24, 24, 24) !important;
     width: 100% !important; height: 100vh !important;
 }
 
 .image-project-detail{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex; align-items: center;
     justify-content: center;
 }
 
 .image-project-section{
-    width: 100%;
-    height: 100%;
+    width: 700px;
+    height: 60%;
+    border: white solid 5px;
+    border-radius: 10px;
 }
