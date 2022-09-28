@@ -23,11 +23,14 @@ const ProjectDetail = () => {
     <div className='project-detail-template'>
       <Navbar isAppComponent={false} />
       <h1 className='title-project-page'>{projectData === '' ? '' : projectData[0].title}</h1>
-      <div className='image-project-detail'>
+      
         {projectData === '' ? '' : 
+        <div className='image-project-detail'>
           <img src={projectData[0].imgUrl} className = 'image-project-section'></img>
+          <div className='description-project'>{projectData[0].description}</div>
+        </div>
         }
-      </div>
+
       <Footer />
     </div>
   )
