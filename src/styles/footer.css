@@ -4,6 +4,7 @@
     flex-flow: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #121212;
 }
 
 .footer-container{

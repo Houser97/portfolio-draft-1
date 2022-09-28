@@ -5,7 +5,6 @@
 
 .title-project-page{
     margin-top: 0;
-    padding: 80px 50px 0px 50px;
     background-image: url('../assets/img/bg-chair.jpg');
     background-position: center;
     background-size:  cover;
@@ -13,7 +12,10 @@
     display: flex;
     align-items: center; justify-content: center;
     height: 100vh;
-    font-family: 'Centra', sans-serif !important; 
+    font-family: ouyo !important; 
+    font-size: 120px;
+    font-weight: 800;
+    letter-spacing: 0px;
 }
 
 .image-project-detail{
