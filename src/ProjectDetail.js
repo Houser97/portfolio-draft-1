@@ -20,7 +20,11 @@ const ProjectDetail = () => {
   return (
     <div className='project-detail-template'>
       <Navbar isAppComponent={false} />
-        {projectData === '' ? '' : projectData[0].title}
+      <div className='image-project-detail'>
+        {projectData === '' ? '' : 
+          <img src={projectData[0].imgUrl} className = 'image-project-section'></img>
+        }
+      </div>
     </div>
   )
 }
