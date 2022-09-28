@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-draft-1/static/css/main.a8ba4394.css",
-    "main.js": "/portfolio-draft-1/static/js/main.467ee162.js",
+    "main.css": "/portfolio-draft-1/static/css/main.db1f9ae8.css",
+    "main.js": "/portfolio-draft-1/static/js/main.d3918664.js",
     "static/js/787.67ce4754.chunk.js": "/portfolio-draft-1/static/js/787.67ce4754.chunk.js",
     "static/media/Ext2.jpg": "/portfolio-draft-1/static/media/Ext2.e44166b3af5427e91ac7.jpg",
     "static/media/Romantico2-2.jpg": "/portfolio-draft-1/static/media/Romantico2-2.5ccb5d5e4085513a232f.jpg",
@@ -12,6 +12,7 @@
     "static/media/PlantAr.jpg": "/portfolio-draft-1/static/media/PlantAr.26ba6fb1cc03fc4f5b05.jpg",
     "static/media/INTERIORCERAMICAYMETAL1-4-2.jpg": "/portfolio-draft-1/static/media/INTERIORCERAMICAYMETAL1-4-2.f9b3d32f0c7eca8f3de0.jpg",
     "static/media/bedroom.jpg": "/portfolio-draft-1/static/media/bedroom.6538db813c499921bf91.jpg",
+    "static/media/bg-chair.jpg": "/portfolio-draft-1/static/media/bg-chair.5af3b1d90e1a4b7a08ae.jpg",
     "static/media/babyBedroom.jpg": "/portfolio-draft-1/static/media/babyBedroom.058fb40b883e7e4eb9fb.jpg",
     "static/media/IntRen.jpg": "/portfolio-draft-1/static/media/IntRen.70c32e95be8b09c78cc4.jpg",
     "static/media/CentraNo2-Bold.ttf": "/portfolio-draft-1/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -21,12 +22,12 @@
     "static/media/VDESIGN.png": "/portfolio-draft-1/static/media/VDESIGN.88a683d50bd8dc6d2429.png",
     "static/media/nav-icon3.svg": "/portfolio-draft-1/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/portfolio-draft-1/index.html",
-    "main.a8ba4394.css.map": "/portfolio-draft-1/static/css/main.a8ba4394.css.map",
-    "main.467ee162.js.map": "/portfolio-draft-1/static/js/main.467ee162.js.map",
+    "main.db1f9ae8.css.map": "/portfolio-draft-1/static/css/main.db1f9ae8.css.map",
+    "main.d3918664.js.map": "/portfolio-draft-1/static/js/main.d3918664.js.map",
     "787.67ce4754.chunk.js.map": "/portfolio-draft-1/static/js/787.67ce4754.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ba4394.css",
-    "static/js/main.467ee162.js"
+    "static/css/main.db1f9ae8.css",
+    "static/js/main.d3918664.js"
   ]
 }
