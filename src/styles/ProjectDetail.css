@@ -21,7 +21,7 @@
     display: grid;
     width: 100%;
     grid-template-columns: minmax(600px, 1fr) minmax(200px, 480px);
-    grid-template-rows: repeat(auto-fill, minmax(0px, 400px));
+    grid-template-rows: repeat(auto-fill, minmax(0px, 450px));
     justify-content: center;
     padding: 0px 50px;
     padding-top: 120px;
@@ -73,10 +73,10 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
     .image-project-detail{
-        grid-template-columns: repeat(auto-fill, minmax(400px, 600px));
-        grid-template-rows: min-content;
+        grid-template-columns: repeat(auto-fill, minmax(600px, 700px));
+        grid-template-rows: min-content 450px;
     }
 
     .grid-2{
@@ -91,9 +91,9 @@
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 630px) {
     .image-project-detail{
-        grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 600px));
         grid-template-rows: min-content;
     }
 }
