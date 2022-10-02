@@ -1,5 +1,5 @@
 .footer {
-    padding: 27px 100px;
+    padding: 27px 80px;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -33,4 +33,16 @@
     align-items: center;
     padding: 0px;
     font-family: ouyo;
+}
+
+@media (max-width: 700px){
+    .footer {
+        padding: 27px 30px;
+    }
+}
+
+@media (max-width: 420px){
+    .footer {
+        padding: 27px 10px;
+    }
 }
