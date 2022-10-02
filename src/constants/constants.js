@@ -12,7 +12,7 @@ import babyBedroom from "../assets/img/projects/babyBedroom.jpg";
 export const projects = [
     {
       title: "Ext1",
-      description: "Design & Development",
+      description: "Design & Development AHASA AS ASA ASAS ASSDF",
       imgUrl: Ext1,
     },
     {

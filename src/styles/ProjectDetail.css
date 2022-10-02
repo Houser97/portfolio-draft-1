@@ -20,7 +20,7 @@
 .image-project-detail{
     display: grid;
     width: 100%;
-    grid-template-columns: minmax(600px, 1fr) auto;
+    grid-template-columns: minmax(600px, 1fr) minmax(200px, 480px);
     grid-template-rows: repeat(auto-fill, minmax(0px, 400px));
     justify-content: center;
     padding: 0px 50px;
@@ -49,6 +49,8 @@
     text-align: justify;
     display: flex; align-items: center;
     justify-content: center;
+    padding: 0px;
+    padding: 10px 12px;
 }
 
 /*
@@ -59,7 +61,7 @@
 */
 
 #grid-2{
-    padding: 0px 20px;
+    padding: 0px 0px;
     /*
     grid-row-start: 1;
     grid-row-end: 2;
