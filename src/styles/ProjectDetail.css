@@ -1,21 +1,16 @@
 .project-detail-template{
-    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    /*background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);*/
+    background-color: white;
     width: 100% !important;
 }
 
 .title-project-page{
-    padding: 100px 60px 0px 60px;
     margin-top: 0;
-    background-image: url('../assets/img/bg-chair.jpg');
-    background-position: center;
-    background-size:  cover;
-    background-repeat: no-repeat;
     display: flex;
     align-items: center !important;
     justify-content: center !important;;
     width: 100%;
     height: 100vh;
-     
     font-size: 90px;
     font-weight: 800;
     letter-spacing: 30px;
@@ -25,23 +20,37 @@
 
 .image-project-detail{
     width: 100%;
-    height: 100vh;
-    display: flex; align-items: center;
-    justify-content: space-between;
-    padding: 0px 200px;
+    display: grid; flex-flow: column;
+    align-items: center;
+    padding: 120px 200px 100px 200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fill, 1fr);
+}
+
+.image-project-detail h1 {
+    font-family: ouyo;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .image-project-section{
     width: 700px;
-    height: 60%;
+    height: 450px;
     border: white solid 5px;
     border-radius: 10px;
 }
 
 .description-project{
     font-size: 36px;
-    color: white;
     text-align: justify;
     display: flex; align-items: center;
     justify-content: center;
+}
+
+#grid-2{
+    display: flex; flex-flow: column;
+    align-items: center; justify-content: flex-start;
+    color: black;
+    height: 100%; width: 100%;
 }
