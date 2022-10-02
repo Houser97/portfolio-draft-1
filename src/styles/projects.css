@@ -36,7 +36,7 @@
     background-color: transparent;
     border-radius: 0;
     padding: 17px 0;
-    color: #fff;
+    color: black;
     width: 100%;
     font-size: 17px;
     letter-spacing: 0.8px;
@@ -64,16 +64,17 @@
 }
 
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+    border: 1px solid rgb(0, 0, 0);
+    color: white !important;
 }
 
 .nav-link#projects-tabs-tab-first {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 1);
     border-radius: 55px 0px 0px 55px;
 }
 
 .projects-text{
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 /*
@@ -83,7 +84,7 @@
 }
 */
 .nav-link#projects-tabs-tab-second {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 1);
     border-radius: 0 55px 55px 0;
 }
 
