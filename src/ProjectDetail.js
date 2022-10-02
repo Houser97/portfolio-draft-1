@@ -22,6 +22,7 @@ const ProjectDetail = () => {
   return (
     <div className='project-detail-template'>
       <Navbar isAppComponent={false} />
+      
         {projectData === '' ? '' : 
         <div className='image-project-detail'>
           <div className='grid grid-1'>
