@@ -107,9 +107,9 @@
 #grid-projects{
     display: grid !important;
     width: 100% !important;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 500px)) !important;
-    grid-template-rows: repeat(auto-fill, minmax(300px, 300px)) !important;
-    grid-auto-rows: 300px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 500px)) !important;
+    grid-template-rows: repeat(auto-fill, minmax(0px, 300px)) !important;
+    grid-auto-rows: 300px; /* Previene que algunas cartas tengan diferente altura */
     align-items: center !important; 
     justify-content: center !important;
     row-gap: 60px; column-gap: 80px;
@@ -121,4 +121,19 @@
     display: flex !important;
     flex-flow: column !important;
     align-items: center !important;
+}
+
+@media (max-width: 600px) {
+    #grid-projects{
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 460px) {
+    #grid-projects{
+        grid-template-columns: minmax(200px, 400px) !important;
+        grid-template-rows: repeat(auto-fill, minmax(0px, 200px)) !important;
+        grid-auto-rows: 200px
+    }
 }
