@@ -85,14 +85,14 @@ const NavbarReact = ({isAppComponent}) => {
           <div ref={links_insta} className="links-and-instagram-sm">
             {/*<Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>*/}
             {isAppComponent ? (
-              <Nav className='ms-auto'>
+              <div className='links-sm'>
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                 <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-              </Nav>
+              </div>
             ):(
-              <Nav className="ms-auto">
+              <div className='links-sm'>
                 <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              </Nav>
+              </div>
             )}
             <span className="navbar-text">
               <div className="social-icon">

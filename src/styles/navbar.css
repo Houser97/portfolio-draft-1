@@ -36,12 +36,13 @@
 
 .links-and-instagram-sm{
     display: none;
-    transition: transform 250ms ease-in-out, opacity 250ms ease-in-out;
+    transition: transform 300ms ease-in-out;
     position: absolute;
-    flex-flow: row;
-    align-items: center;
-    opacity: 0;
-    background-color: #121212;
+}
+
+.links-sm{
+    display: flex;
+    margin-right: 20px;
 }
 
 .container-logo{
@@ -293,6 +294,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 770px) {
     .links-and-instagram-sm{
         display: flex;
+        align-items: center; justify-content: center;
         height: 100%;
         width: 100%;
         left: 0px;
@@ -300,6 +302,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         z-index: -100;
         background-color: #121212;
         opacity: 1;
+        flex-flow: row;
+        align-items: center;
+        padding-right: 40px;
     }
 
     .links-and-instagram{
