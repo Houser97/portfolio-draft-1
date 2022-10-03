@@ -6,12 +6,12 @@
     width: 100% !important;
     height: 100% !important;
     border: white 2px solid;
-    color: black !important;
+    color: white !important;
 }
 
 .proj-imgbx::before {
     content: "";
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     opacity: 0.85;
     position: absolute;
     width: 100%;
