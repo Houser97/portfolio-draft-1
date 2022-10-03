@@ -1,4 +1,4 @@
-nav.navbar {
+.navbar-container {
     padding: 18px 0px;
     position: fixed;
     width: 100%;
@@ -8,9 +8,31 @@ nav.navbar {
     color: black;
 }
 
-nav.navbar.scrolled {
-    padding: 18px 30px;
+.scrolled {
+    padding: 18px 100px;
     background-color: #121212;
+}
+
+.container-content-nav{
+    display: flex; flex-flow: row;
+    justify-content: space-between; align-items: center;
+}
+
+.links-and-instagram{
+    display: flex; flex-flow: row;
+    align-items: center;
+}
+
+.container-logo{
+    display: flex; flex-flow: column;
+    align-items: center;
+}
+
+.logo-architecture{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 11.5px;
+    padding: 0px 4px !important;
 }
 
 nav.navbar.project-section {
@@ -194,18 +216,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before {
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
-}
-
-.container-logo{
-    display: flex; flex-flow: column;
-    align-items: center;
-}
-
-.logo-architecture{
-    color: white;
-    letter-spacing: 5px;
-    font-size: 11.5px;
-    padding: 0px 4px !important;
 }
 
 /* Sección de área responsive de Navbar 

@@ -30,16 +30,13 @@ const NavbarReact = ({isAppComponent}) => {
   }
 
   return (
-    <Navbar expand="md" className={`${isAppComponent ? "scrolled" : "scrolled"}`}>
-      <Container>
+    <nav className="scrolled navbar-container">
+      <div className="container-content-nav">
         <Navbar.Brand href="/">
           <div className="logo-architecture">IT'S ALL ABOUT </div>
           <div className="logo-architecture">ARCHITECTURE</div>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
-          <span className="navbar-toggler-icon" onClick={() => setToggle(true)}></span>
-        </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <div className="links-and-instagram">
           {/*<Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>*/}
           {isAppComponent ? (
             <Nav className='ms-auto'>
@@ -65,9 +62,9 @@ const NavbarReact = ({isAppComponent}) => {
             </HashLink>
             */}
           </span>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+        </div>
+      </div>
+    </nav>
   )
 }
 
