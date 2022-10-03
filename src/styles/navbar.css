@@ -73,6 +73,7 @@ a.navbar-brand {
     color: white;
     display: none;
     position: relative;
+    cursor: pointer;
 }
 
 .toggle-buttons .toggle-button{
