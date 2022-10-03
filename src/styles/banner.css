@@ -10,11 +10,9 @@
 
 .container-banner{
     width: 100%;
-}
-
-.container-banner .container-banner-2{
-    width: 100%;
-    display: flex;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(300px, 800px) 400px;
 }
 
 .banner .tagline {
@@ -76,6 +74,7 @@
 .logoV{
     width: 400px;
     height: 550px;
+    justify-self: center;
 }
 
 
@@ -96,4 +95,16 @@ border-right: 0.08em solid #666;
 
 .txt-rotate{
     font-size: 56px !important;
+}
+
+@media (max-width: 830px) {
+    .container-banner{
+        grid-template-columns: minmax(300px, 800px);
+        grid-template-rows: repeat(auto-fill, auto);
+        justify-content: center;
+    }
+
+    #home {
+        padding-top: 130px;
+    }
 }

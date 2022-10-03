@@ -23,6 +23,12 @@ const Projects = () => {
                     <Nav.Item>
                       <Nav.Link eventKey="second">Interior Designs</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="third">Third</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fourth">Fourth</Nav.Link>
+                    </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
@@ -40,6 +46,12 @@ const Projects = () => {
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="third">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
