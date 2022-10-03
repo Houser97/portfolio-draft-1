@@ -7,8 +7,8 @@ function RouteSwitch ()  {
   return (
     <BrowserRouter>
         <Routes>
-            <Route path='/portfolio-draft-1' element = {<App />} />
-            <Route path='/portfolio-draft-1/project/:name' element = {<ProjectDetail />}  />
+            <Route path='/' element = {<App />} />
+            <Route path='/project/:name' element = {<ProjectDetail />}  />
         </Routes>
     </BrowserRouter>
   )
