@@ -48,7 +48,7 @@ const NavbarReact = ({isAppComponent}) => {
             </Nav>
           ):(
             <Nav className="ms-auto">
-              <Nav.Link href="/portfolio-draft-1" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+              <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             </Nav>
           )}
           <span className="navbar-text">
