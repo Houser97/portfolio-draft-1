@@ -208,6 +208,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     padding: 0px 4px !important;
 }
 
+/* Sección de área responsive de Navbar 
+.navbar-collapse.show{
+    display: flex; flex-flow: column;
+    background-color: green;
+    margin: 0px !important;
+}
+
+.navbar-toggle-active{
+    margin: 0px !important;
+    background-color: #d6249f;
+}
+*/
 @media (max-width: 380px) {
     .logo-architecture{
         font-size: 9px;
