@@ -56,11 +56,15 @@ a.navbar-brand {
     height: 100%;
     position: absolute;
     visibility: hidden;
-    
+    pointer-events: none;
 }
 
 .toggle-active{
     visibility: visible;
+}
+
+.toggle-hidden{
+    visibility: hidden;
 }
 
 .navbar-container .toggle-buttons .open-menu {

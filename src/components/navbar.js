@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import '../styles/navbar.css'
@@ -7,6 +7,19 @@ const NavbarReact = ({isAppComponent}) => {
 
   const [activeLink, setActiveLink] = useState('home');
   const [toggle, setToggle] = useState(false)
+
+  const open_menu = useRef(null)
+  const close_menu = useRef(null)
+
+  const swapToggle = () => {
+    if(open_menu.current.style.visibility === 'visible') {
+      open_menu.current.style.visibility = 'hidden'
+      close_menu.current.style.visibility = 'visible'
+    } else {
+      open_menu.current.style.visibility = 'visible'
+      close_menu.current.style.visibility = 'hidden'
+    }
+  }
   /*
   const [scrolled, setScrolled] = useState(false);
 
@@ -63,11 +76,11 @@ const NavbarReact = ({isAppComponent}) => {
             */}
           </span>
         </div>
-        <div className="toggle-buttons">
-            <svg className="toggle-button open-menu" viewBox="0 0 24 24">
+        <div className="toggle-buttons" onClick = {() => swapToggle()}>
+            <svg ref={open_menu} className="toggle-button open-menu" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
             </svg>
-            <svg className="toggle-button close-menu" viewBox="0 0 24 24">
+            <svg ref={close_menu} className="toggle-button close-menu" viewBox="0 0 24 24">
                 <path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
             </svg>
           </div>
