@@ -317,8 +317,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
 }
 
+@media (max-width: 420px) {
+    .toggle-buttons{
+        height: 30px;
+        width: 30px;
+    }
+}
+
 @media (max-width: 380px) {
     .logo-architecture{
         font-size: 9px;
+    }
+
+    .container-content-nav{
+        padding: 18px 30px;
     }
 }
