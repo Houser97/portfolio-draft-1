@@ -16,11 +16,11 @@ const NavbarReact = ({isAppComponent}) => {
     if(open_menu.current.style.visibility === 'visible') {
       open_menu.current.style.visibility = 'hidden'
       close_menu.current.style.visibility = 'visible'
-      links_insta.current.style.transform = 'translate(0%, 80%)';
+      links_insta.current.style.transform = 'translate(0%, 90%)';
     } else {
       open_menu.current.style.visibility = 'visible'
       close_menu.current.style.visibility = 'hidden'
-      links_insta.current.style.transform = 'translate(0%, -80%)';
+      links_insta.current.style.transform = 'translate(0%, -90%)';
     }
   }
   /*

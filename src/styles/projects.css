@@ -180,8 +180,8 @@
 @media (max-width: 420px) {
     #grid-projects{
         grid-template-columns: minmax(300px, 400px) !important;
-        grid-template-rows: repeat(auto-fill, minmax(0px, 160px)) !important;
-        grid-auto-rows: 160px 
+        grid-template-rows: repeat(auto-fill, minmax(0px, 180px)) !important;
+        grid-auto-rows: 180px; 
     }
 
     .project .nav.nav-pills .nav-link {
