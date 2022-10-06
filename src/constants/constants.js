@@ -8,53 +8,33 @@ import Romantic from '../assets/img/projects/LivingRoom/RomanticLiving.jpg';
 
 export const projects = [
     {
-      title: "",
+      title: "Farmhouse Living",
+      description: "Design & Development",
+      imgUrl: FarmHouse,
+    },
+    {
+      title: "Romantic Living",
+      description: "Design & Development",
+      imgUrl: Romantic,
+    },
+    {
+      title: "Eclectic Living",
+      description: "Design & Development",
+      imgUrl: Eclectic,
+    },
+    {
+      title: "Glam Living",
+      description: "Design & Development",
+      imgUrl: GlamLiving,
+    },
+    {
+      title: "Scandi Living",
+      description: "Design & Development",
+      imgUrl: Scandi,
+    },
+    {
+      title: "Industrial Living",
       description: "Design & Development AHASA AS ASA ASAS ASSDF",
-      imgUrl: Ext1,
-    },
-    {
-      title: "Ext2",
-      description: "Design & Development",
-      imgUrl: Ext2,
-    },
-    {
-      title: "Int2",
-      description: "Design & Development",
-      imgUrl: Int2,
-    },
-    {
-      title: "Interior Ceramica",
-      description: "Design & Development",
-      imgUrl: INTERIORCERAMICA,
-    },
-    {
-      title: "Interior plastico y vidrio",
-      description: "Design & Development",
-      imgUrl: InteriorPlasticoyVidrio,
-    },
-    {
-      title: "Living room 1",
-      description: "Design & Development",
-      imgUrl: Livingroom1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: IntRen,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: Romantico2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: bedroom,
-    },
-    {
-      title: "Baby bedroom",
-      description: "Design & Development",
-      imgUrl: babyBedroom,
+      imgUrl: IndustrialLiving,
     },
 ];
