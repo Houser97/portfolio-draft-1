@@ -10,31 +10,37 @@ export const projects = [
     {
       title: "Farmhouse Living",
       description: "Design & Development",
+      category: 'Living Room',
       imgUrl: FarmHouse,
     },
     {
       title: "Romantic Living",
       description: "Design & Development",
+      category: 'Living Room',
       imgUrl: Romantic,
     },
     {
       title: "Eclectic Living",
       description: "Design & Development",
+      category: 'Living Room',
       imgUrl: Eclectic,
     },
     {
       title: "Glam Living",
       description: "Design & Development",
+      category: 'Living Room',
       imgUrl: GlamLiving,
     },
     {
       title: "Scandi Living",
       description: "Design & Development",
+      category: 'Living Room',
       imgUrl: Scandi,
     },
     {
       title: "Industrial Living",
       description: "Design & Development AHASA AS ASA ASAS ASSDF",
+      category: 'Living Room',
       imgUrl: IndustrialLiving,
     },
 ];
