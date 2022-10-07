@@ -54,36 +54,36 @@ const Projects = () => {
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <div id="grid-projects">
-                        {
-                          projects.map((project, index) => {
-                            if(project.category === 'Bedroom') {
-                              return (
-                                <ProjectCard
-                                  key={`BR-${index}`}
-                                  {...project}
-                                  />
-                              )
-                            }
-                          })
-                        }
-                      </div>
+                      <div id="grid-projects">
+                          {
+                            projects.map((project, index) => {
+                              if(project.category === 'Bedroom') {
+                                return (
+                                  <ProjectCard
+                                    key={`BR-${index}`}
+                                    {...project}
+                                    />
+                                )
+                              }
+                            })
+                          }
+                        </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <div id="grid-projects">
-                        {
-                          projects.map((project, index) => {
-                            if(project.category === 'Lobby') {
-                              return (
-                                <ProjectCard
-                                  key={`Lobby-${index}`}
-                                  {...project}
-                                  />
-                              )
-                            }
-                          })
-                        }
-                      </div>
+                      <div id="grid-projects">
+                          {
+                            projects.map((project, index) => {
+                              if(project.category === 'Lobby') {
+                                return (
+                                  <ProjectCard
+                                    key={`Lobby-${index}`}
+                                    {...project}
+                                    />
+                                )
+                              }
+                            })
+                          }
+                        </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                       <div id="grid-projects">
@@ -93,6 +93,22 @@ const Projects = () => {
                                 return (
                                   <ProjectCard
                                     key={`DR-${index}`}
+                                    {...project}
+                                    />
+                                )
+                              }
+                            })
+                          }
+                        </div>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fifth">
+                      <div id="grid-projects">
+                          {
+                            projects.map((project, index) => {
+                              if(project.category === 'Kitchen') {
+                                return (
+                                  <ProjectCard
+                                    key={`kitchen-${index}`}
                                     {...project}
                                     />
                                 )
