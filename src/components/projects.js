@@ -41,12 +41,14 @@ const Projects = () => {
                       <div id="grid-projects">
                         {
                           projects.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
+                            if(project.category === 'Living Room') {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                  />
+                              )
+                            }
                           })
                         }
                       </div>
