@@ -19,6 +19,11 @@ import ModernRustic from '../assets/img/projects/Bedroom/ModernRustic.jpg';
 import ModernRusticB from '../assets/img/projects/Bedroom/ModernRusticBedroom.jpg';
 import TeenB from '../assets/img/projects/Bedroom/TeenBedroom.jpg';
 
+// Dining Room
+import IndustrialDining from '../assets/img/projects/DiningRoom/IndustrialDining.jpg';
+import ModernDining from '../assets/img/projects/DiningRoom/ModernDining.jpg';
+import ModernRDining from '../assets/img/projects/DiningRoom/ModernRusticDining.jpg';
+
 export const projects = [
  // --------- LivingRoom 
   {
@@ -123,5 +128,24 @@ export const projects = [
     description: "Design & Development",
     category: 'Bedroom',
     imgUrl: TeenB,
+  },
+// --------- DiningRoom 
+  {
+    title: "Industrial Dining Room",
+    description: "Design & Development",
+    category: 'Dining Room',
+    imgUrl: IndustrialDining,
+  },
+  {
+    title: "Modern Dining Room",
+    description: "Design & Development",
+    category: 'Dining Room',
+    imgUrl: ModernDining,
+  },
+  {
+    title: "Modern Rustic Dining Room",
+    description: "Design & Development",
+    category: 'Dining Room',
+    imgUrl: ModernRDining,
   },
 ];
