@@ -70,7 +70,20 @@ const Projects = () => {
                       </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <div id="grid-projects">
+                        {
+                          projects.map((project, index) => {
+                            if(project.category === 'Lobby') {
+                              return (
+                                <ProjectCard
+                                  key={`Lobby-${index}`}
+                                  {...project}
+                                  />
+                              )
+                            }
+                          })
+                        }
+                      </div>
                     </Tab.Pane>
                     <Tab.Pane eventKey="fourth">
                       <div id="grid-projects">
