@@ -7,6 +7,18 @@ import FarmHouse from '../assets/img/projects/LivingRoom/FarmhouseLiving.jpg';
 import Romantic from '../assets/img/projects/LivingRoom/RomanticLiving.jpg';
 import Minimal from '../assets/img/projects/LivingRoom/MinimalLiving.jpg';
 
+// Bedroom
+import Boho from '../assets/img/projects/LivingRoom/Boho.jpg';
+import BabyGirlB from '../assets/img/projects/LivingRoom/BabyGirlBedroom.jpg';
+import GirlB from '../assets/img/projects/LivingRoom/GirlBedroom.jpg';
+import BabyB from '../assets/img/projects/LivingRoom/BabyBedroom.jpg';
+import BoyB from '../assets/img/projects/LivingRoom/BoyBedroom.jpg';
+import BoyB2 from '../assets/img/projects/LivingRoom/BoyBedroom2.jpg';
+import GlamB from '../assets/img/projects/LivingRoom/GlamBedroom.jpg';
+import ModernRustic from '../assets/img/projects/LivingRoom/ModernRustic.jpg';
+import ModernRusticB from '../assets/img/projects/LivingRoom/ModernRusticBedroom.jpg';
+import TeenB from '../assets/img/projects/LivingRoom/TeenBedroom.jpg';
+
 export const projects = [
     {
       title: "Farmhouse Living",
