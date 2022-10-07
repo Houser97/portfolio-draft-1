@@ -195,9 +195,15 @@ export const projects = [
   },
   // --------- Bathroom 
   {
-    title: "Cont Kitchen",
+    title: "Glam Bathroom",
     description: "Design & Development",
     category: 'Bathroom',
-    imgUrl: ContKitchen,
+    imgUrl: GlamBath,
+  },
+  {
+    title: "Modern Bathroom",
+    description: "Design & Development",
+    category: 'Bathroom',
+    imgUrl: ModernBath,
   },
 ];
