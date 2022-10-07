@@ -5,6 +5,7 @@ import GlamLiving from '../assets/img/projects/LivingRoom/GlamLiving.jpg';
 import Scandi from '../assets/img/projects/LivingRoom/ScandiLiving.jpg';
 import FarmHouse from '../assets/img/projects/LivingRoom/FarmhouseLiving.jpg';
 import Romantic from '../assets/img/projects/LivingRoom/RomanticLiving.jpg';
+import Minimal from '../assets/img/projects/LivingRoom/MinimalLiving.jpg';
 
 export const projects = [
     {
@@ -36,6 +37,12 @@ export const projects = [
       description: "Design & Development",
       category: 'Living Room',
       imgUrl: Scandi,
+    },
+    {
+      title: "Minimal Living",
+      description: "Design & Development",
+      category: 'Living Room',
+      imgUrl: Minimal,
     },
     {
       title: "Industrial Living",
