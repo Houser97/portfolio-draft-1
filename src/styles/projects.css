@@ -95,10 +95,21 @@
     border-bottom: 1px solid rgba(0, 0, 0, 1);
     border-left: 1px solid rgba(0, 0, 0, 1);
     border-right: 1px solid rgba(0, 0, 0, 1);
-    border-bottom-left-radius: 55px;
 }
 
 .nav-link#projects-tabs-tab-fourth {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+.nav-link#projects-tabs-tab-fifth {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    border-bottom-left-radius: 55px;
+}
+
+.nav-link#projects-tabs-tab-sixth {
     border-bottom: 1px solid rgba(0, 0, 0, 1);
     border-right: 1px solid rgba(0, 0, 0, 1);
     border-radius: 0 0px 55px 0px;
