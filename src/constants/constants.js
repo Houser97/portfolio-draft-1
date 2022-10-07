@@ -176,4 +176,17 @@ export const projects = [
     category: 'Dining Room',
     imgUrl: ModernRDining,
   },
+  // --------- Kitchen 
+  {
+    title: "Cont Kitchen",
+    description: "Design & Development",
+    category: 'Kitchen',
+    imgUrl: ContKitchen,
+  },
+  {
+    title: "Modern Kitchen",
+    description: "Design & Development",
+    category: 'Kitchen',
+    imgUrl: ModernKitchen,
+  },
 ];
