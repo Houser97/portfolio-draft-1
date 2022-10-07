@@ -19,6 +19,11 @@ import ModernRustic from '../assets/img/projects/Bedroom/ModernRustic.jpg';
 import ModernRusticB from '../assets/img/projects/Bedroom/ModernRusticBedroom.jpg';
 import TeenB from '../assets/img/projects/Bedroom/TeenBedroom.jpg';
 
+// Lobby
+import BookSpace from '../assets/img/projects/Lobby/BookSpace.jpg';
+import GlamConsole from '../assets/img/projects/Lobby/GlamConsole.jpg';
+import MediaConsole from '../assets/img/projects/Lobby/MediaConsole.jpg';
+
 // Dining Room
 import IndustrialDining from '../assets/img/projects/DiningRoom/IndustrialDining.jpg';
 import ModernDining from '../assets/img/projects/DiningRoom/ModernDining.jpg';
@@ -128,6 +133,25 @@ export const projects = [
     description: "Design & Development",
     category: 'Bedroom',
     imgUrl: TeenB,
+  },
+// --------- Lobby 
+  {
+    title: "Book Space",
+    description: "Design & Development",
+    category: 'Lobby',
+    imgUrl: BookSpace,
+  },
+  {
+    title: "Glam Console",
+    description: "Design & Development",
+    category: 'Lobby',
+    imgUrl: GlamConsole,
+  },
+  {
+    title: "Media Console",
+    description: "Design & Development",
+    category: 'Lobby',
+    imgUrl: MediaConsole,
   },
 // --------- DiningRoom 
   {
