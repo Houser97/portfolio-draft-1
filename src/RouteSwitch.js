@@ -5,7 +5,7 @@ import ProjectDetail from './ProjectDetail'
 
 function RouteSwitch ()  {
   return (
-    <BrowserRouter basename='/Andrea-Vidal'>
+    <BrowserRouter basename='/portfolio-draft-1'>
         <Routes>
             <Route path='/' element = {<App />} />
             <Route path='/project/:name' element = {<ProjectDetail />}  />
