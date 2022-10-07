@@ -117,6 +117,22 @@ const Projects = () => {
                           }
                         </div>
                     </Tab.Pane>
+                    <Tab.Pane eventKey="sixth">
+                      <div id="grid-projects">
+                          {
+                            projects.map((project, index) => {
+                              if(project.category === 'Bathroom') {
+                                return (
+                                  <ProjectCard
+                                    key={`Bath-${index}`}
+                                    {...project}
+                                    />
+                                )
+                              }
+                            })
+                          }
+                        </div>
+                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
