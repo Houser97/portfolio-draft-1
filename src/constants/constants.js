@@ -29,6 +29,10 @@ import IndustrialDining from '../assets/img/projects/DiningRoom/IndustrialDining
 import ModernDining from '../assets/img/projects/DiningRoom/ModernDining.jpg';
 import ModernRDining from '../assets/img/projects/DiningRoom/ModernRusticDining.jpg';
 
+// Kitchen
+import ContKitchen from '../assets/img/projects/Kitchen/ContKitchen.jpg';
+import ModernKitchen from '../assets/img/projects/Kitchen/ModernKitchen.jpg';
+
 export const projects = [
  // --------- LivingRoom 
   {
