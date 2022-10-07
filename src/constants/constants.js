@@ -33,6 +33,10 @@ import ModernRDining from '../assets/img/projects/DiningRoom/ModernRusticDining.
 import ContKitchen from '../assets/img/projects/Kitchen/ContKitchen.jpg';
 import ModernKitchen from '../assets/img/projects/Kitchen/ModernKitchen.jpg';
 
+// Bathroom
+import GlamBath from '../assets/img/projects/Bathroom/GlamBath.jpg';
+import ModernBath from '../assets/img/projects/Bathroom/ModernBath.jpg';
+
 export const projects = [
  // --------- LivingRoom 
   {
