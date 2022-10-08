@@ -3,8 +3,23 @@ import ProjectCard from "./projectCard";
 import TrackVisibility from 'react-on-screen';
 import '../styles/projects.css';
 import { projects } from "../constants/constants";
+import { useEffect, useState } from "react";
 
 const Projects = () => {
+
+  const [key, setKey] = useState('first')
+
+  useEffect(() => {
+    const getActiveTab = JSON.parse(localStorage.getItem('activeTab'));
+    if(getActiveTab){
+      setKey(getActiveTab)
+    }
+    return () => {
+      localStorage.setItem('activeTab', JSON.stringify(key))
+    }
+  }, [])
+
+
   return (
     <section className="project" id="projects">
       <div id = 'container-project'>
@@ -18,22 +33,22 @@ const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Living Room</Nav.Link>
+                      <Nav.Link eventKey="first" onClick={() => setKey('first')}>Living Room</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Bedroom</Nav.Link>
+                      <Nav.Link eventKey="second" onClick={() => setKey('second')}>Bedroom</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Lobby</Nav.Link>
+                      <Nav.Link eventKey="third" onClick={() => setKey('third')}>Lobby</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fourth">Dining Room</Nav.Link>
+                      <Nav.Link eventKey="fourth" onClick={() => setKey('fourth')}>Dining Room</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="fifth">Kitchen</Nav.Link>
+                      <Nav.Link eventKey="fifth" onClick={() => setKey('fifth')}>Kitchen</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="sixth">Bathroom</Nav.Link>
+                      <Nav.Link eventKey="sixth" onClick={() => setKey('sixth')}>Bathroom</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
