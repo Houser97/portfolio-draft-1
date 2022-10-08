@@ -124,6 +124,7 @@
     align-items: center !important; 
     justify-content: center !important;
     row-gap: 40px; column-gap: 80px;
+    padding-bottom: 30px;
 }
 
 #container-project {
