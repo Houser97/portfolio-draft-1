@@ -11,7 +11,6 @@ const Projects = () => {
 
   useEffect(() => {
     const getActiveTab = JSON.parse(localStorage.getItem('activeTab'));
-    console.log(getActiveTab)
     if(getActiveTab){
       setKey(getActiveTab)
     }
