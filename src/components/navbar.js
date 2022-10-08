@@ -49,7 +49,7 @@ const NavbarReact = ({isAppComponent}) => {
     <nav className="scrolled navbar-container">
       <div className="div-helper-nav">
         <div className="container-content-nav">
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/portfolio-draft-1">
             <div className="logo-architecture">IT'S ALL ABOUT </div>
             <div className="logo-architecture">ARCHITECTURE</div>
           </Navbar.Brand>
@@ -63,7 +63,7 @@ const NavbarReact = ({isAppComponent}) => {
               </Nav>
             ):(
               <Nav className="ms-auto">
-                <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                <Nav.Link href="/portfolio-draft-1" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               </Nav>
             )}
             <span className="navbar-text">
@@ -91,7 +91,7 @@ const NavbarReact = ({isAppComponent}) => {
               </div>
             ):(
               <div className='links-sm'>
-                <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                <Nav.Link href="/portfolio-draft-1" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               </div>
             )}
             <span className="navbar-text">
